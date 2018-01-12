@@ -34,3 +34,12 @@ class User extends Authenticatable
     */
     
 }
+/**
+* 
+*/
+class users extends Model
+{
+    public function Tweet(){
+        return $this->hasMany(Tweet::class);
+    }
+}

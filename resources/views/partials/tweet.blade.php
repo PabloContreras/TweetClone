@@ -1,6 +1,6 @@
 <center><div class="card border-primary mb-3" style="max-width: 20rem;">
   <a href="#" class="card-header" style="color: #000000;">User</a>
-  <a href="#" class="card-body text-primary" id=”enlace">
+  <a href="#" class="card-body text-primary">
     <p class="card-text">Tweet</p>
     <span class="pull-right">fecha y hora</span>
   </a>
