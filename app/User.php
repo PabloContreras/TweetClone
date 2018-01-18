@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Model;
+use App\Tweet;
 
 class User extends Authenticatable
 {
@@ -28,18 +29,9 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    /*public function tweets(){
+    public function tweets(){
         return $this->hasMany(Tweet::class);
     }
-    */
     
 }
-/**
-* 
-*/
-class users extends Model
-{
-    public function Tweet(){
-        return $this->hasMany(Tweet::class);
-    }
-}
+
